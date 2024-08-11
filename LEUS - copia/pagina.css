@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.contenier{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* imagen  */
+.header{
+     background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(imgprincipal1/principal1.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+
+.menu .navbar ul li a:hover{
+    color: #e5c50f;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #fffdfc;
+    padding: 0 250px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #e5c50f;
+    color: #060606;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #e5c50f;
+}
+
+/* header : encabezado ---------- */
+
+.joya{
+    padding: 100px 0;
+    background-color: #e7e7e7;
+    position: relative;
+}
+
+.joya-content{
+    text-align: center;
+}
+
+.joya-content .jkm{
+    font-size: 55px;
+    line-height: 70px;
+    color: #1a1a18; 
+    text-transform: uppercase;
+    padding: 0 255px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 16px;
+    color: #1a1a18;
+    padding: 0 255px;
+    margin-bottom: 35px;
+}
+
+.joya-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.joya-1 h3{
+    
+    color: #1a1a18;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* base de los sericios  */
+
+.services{
+        background-image: linear-gradient(
+           rgba(0,0,0,0.7),
+           rgba(0,0,0,0.7)),
+           url(imgprincipal1/principal2.jpg);
+           background-position: center bottom;
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+           padding: 100px 0; 
+}
+
+.services-content{
+    text-align: center;
+}
+
+.services-content .jkm{
+    font-size: 55px;
+    line-height: 70px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.services-content p{
+    font-size: 16px;
+    color: #fffdfc;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1{
+    padding: 0 100px;
+}
+
+.services-1 h3{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+/* servicios fin . Se buscara emplementar enlaces */
+
+/* ------------ */
+
+/* inicio de los generales de los cuales son para la informacion principal de las categorias */
+.general{
+    display: flex;
+}
+
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #949090;
+}
+
+.general-2{
+    background-image: url(imgprincipal1/principal3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+
+.general-3{
+    background-image: url(imgprincipal1/principal4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.jkm{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px o; 
+}
+/* fin de los generales que son para mas informacion de los productos de la categoria */
+
+/* cajas principales */
+
+.coleccion{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pepe{
+    color: #000000;
+    
+}
+
+.img-back{
+    justify-content: end;
+    background-image: url(contenedores-css/98.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px 100px 100px; 
+    text-align: center ;
+    padding-top: 190px;
+   
+}
+.img-back-1{
+    justify-content: end;
+    background-image: url(imgprincipal1/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    padding-top: 190px;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+.img-back-3{
+    justify-content: end;
+    background-image: url(imgprincipal1/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 100px 100px 100px;
+    text-align: center;
+    padding-top: 190px;
+    margin-left: 5em;
+}
+.img-back-4{
+    justify-content: end;
+    background-image: url(imgprincipal1/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    padding-top: 190px;
+    margin-bottom: 1em;
+}
+.img-back-5{
+    justify-content: end;
+    background-image: url(imgprincipal1/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    padding-top: 190px;
+    margin-left: 5em;
+}
+.img-back-6{
+    justify-content: end;
+    background-image: url(imgprincipal1/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    padding-top: 190px;
+    margin-left: 5em;
+}
+
+.boton{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 2px;
+    border-color: #fffdfc;
+    text-transform: uppercase;
+}
+.boton a{
+    color: #000000;
+}
+
+.img-back, .img-back-1, .img-back-3, .img-back-4, .img-back-5, .img-back-6 {
+    background-repeat: no-repeat;
+    background-size: cover; /* Asegura que la imagen cubra el contenedor */
+    text-align: center;
+    padding: 100px;
+    margin: 0.5em;
+}
+
+/* --------------------- */
+.redes{
+    color: #fffdfc;
+}
+/* inicio del footer. Agregar enlaces y cambio de "lorem" a  otros mas coherentes y logicos como "nuestro contacto,facebook,etc.*/
+.pie{
+    background-color: rgb(22, 21, 21);
+    
+    height: 50px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* fin del footer. A este footer se le puede hacer modificaciones como implementacion de imagenes o cambio de color para mas bonito. Y la creacion de los enlaces  */
+
+/* ---------- */
+
+/* parte responsiva:laptos */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.contenier{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* imagen  */
+.header{
+     background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(imgprincipal1/principal1.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+/* menú para el responsable-1 */
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+
+.menu .navbar ul li a:hover{
+    color: #e5c50f;
+}
+
+/* contenido del encabezado  */
+.header-content{
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #fffdfc;
+    padding: 0 250px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #e5c50f;
+    color: #060606;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #e5c50f;
+}
+
+/* header : encabezado ---------- */
+
+.joya{
+    padding: 100px 0;
+    background-color: #e7e7e7;
+    position: relative;
+}
+
+.joya-content{
+    text-align: center;
+}
+
+.joya-content .jkm{
+    font-size: 55px;
+    line-height: 70px;
+    color: #1a1a18; 
+    text-transform: uppercase;
+    padding: 0 255px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 16px;
+    color: #1a1a18;
+    padding: 0 255px;
+    margin-bottom: 35px;
+}
+
+.joya-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.joya-1 h3{
+    
+    color: #1a1a18;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* base de los sericios  */
+
+.services{
+        background-image: linear-gradient(
+           rgba(0,0,0,0.7),
+           rgba(0,0,0,0.7)),
+           url(imgprincipal1/principal2.jpg);
+           background-position: center bottom;
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+           padding: 100px 0; 
+}
+
+.services-content{
+    text-align: center;
+}
+
+.services-content .jkm{
+    font-size: 55px;
+    line-height: 70px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.services-content p{
+    font-size: 16px;
+    color: #fffdfc;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1{
+    padding: 0 100px;
+}
+
+.services-1 h3{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+/* servicios fin . Se buscara emplementar enlaces */
+
+/* ------------ */
+
+/* inicio de los generales de los cuales son para la informacion principal de las categorias */
+.general{
+    display: flex;
+}
+
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #949090;
+}
+
+.general-2{
+    background-image: url(imgprincipal1/principal3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+
+.general-3{
+    background-image: url(imgprincipal1/principal4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.jkm{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px o; 
+}
+/* fin de los generales que son para mas informacion de los productos de la categoria */
+
+/* cajas principales */
+
+.coleccion{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pepe{
+    color: #000000;
+    
+}
+
+.img-back{
+    justify-content: end;
+    background-image: url(imgprincipalcajas3/98.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px 100px 100px; 
+    text-align: center ;
+    padding-top: 190px;
+   
+}
+.img-back-1{
+    justify-content: end;
+    background-image: url(imgprincipal1/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    padding-top: 190px;
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+.img-back-3{
+    justify-content: end;
+    background-image: url(imgprincipal1/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 100px 100px 100px;
+    text-align: center;
+    padding-top: 190px;
+    margin-left: 5em;
+}
+.img-back-4{
+    justify-content: end;
+    background-image: url(imgprincipal1/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    padding-top: 190px;
+    margin-bottom: 1em;
+}
+.img-back-5{
+    justify-content: end;
+    background-image: url(imgprincipal1/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    padding-top: 190px;
+    margin-left: 5em;
+}
+.img-back-6{
+    justify-content: end;
+    background-image: url(imgprincipal1/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    padding-top: 190px;
+    margin-left: 5em;
+}
+
+.boton{
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 2px;
+    border-color: #fffdfc;
+    text-transform: uppercase;
+}
+.boton a{
+    color: #000000;
+}
+.coleccion {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea */
+    justify-content: center;
+    gap: 1em; /* Espacio entre los elementos */
+}
+.img-back, .img-back-1, .img-back-3, .img-back-4, .img-back-5, .img-back-6 {
+    background-repeat: no-repeat;
+    background-size: cover; /* Asegura que la imagen cubra el contenedor */
+    text-align: center;
+    padding: 100px;
+    margin: 0.5em;
+}
+
+/* --------------------- */
+.redes{
+    color: #fffdfc;
+}
+/* inicio del footer. Agregar enlaces y cambio de "lorem" a  otros mas coherentes y logicos como "nuestro contacto,facebook,etc.*/
+.pie{
+    background-color: rgb(22, 21, 21);
+    
+    height: 50px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* fin del footer. A este footer se le puede hacer modificaciones como implementacion de imagenes o cambio de color para mas bonito. Y la creacion de los enlaces  */
+
+/* ---------- */
+
+/* parte responsiva */
+
+@media only screen and (min-width: 320px) and (max-width: 1280px){
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px;
+    }
+    .header-content h1{
+        font-size: 55px;
+    }
+    .header-content p{
+        font-size: 15px;
+        padding: 0;
+    }
+    .joya{
+        padding: 30px;
+    }
+    .joya-content .jkm{
+        font-size: 35px;
+        padding: 0;
+    }
+    .joya-content p{
+        font-size: 20px;
+    }
+    .txt-p{
+        padding: 0;
+    }
+    .joya-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .services{
+        padding: 30px;
+    }
+    .services-content .jkm{
+        font-size: 35px;
+    }
+    .services-content p{
+        font-size: 20px;
+        padding: 0;
+    }
+    .services-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .services-1{
+        margin-bottom: 25px;
+    }
+    .general{
+        flex-direction: column;
+    }
+    .general .jkm{
+        font-size: 35px;
+    }
+    .general p{
+        font-size: 25px;
+    }
+    .general-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    .general-2, .general-3{
+        display: none;
+    }
+    .img-back, .img-back-1, .img-back-3, .img-back-4, .img-back-5, .img-back-6 {
+        padding: 50px; /* Reduce el padding */
+        background-size: cover; /* Ajusta el tamaño de la imagen para que se muestre completa */     
+    }
+    .coleccion {
+        flex-direction: column; /* Cambia la dirección del flujo de los elementos a columna */
+        align-items: center; /* Centra los elementos en el eje transversal */
+    }
+
+    .pie {
+        height: auto;
+        padding: 1em 0.5em;
+        flex-direction: column;
+        text-align: center;
+    }
+}

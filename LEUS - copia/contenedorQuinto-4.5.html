@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contenedores-css/contenedor-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image.png" href="imgprincipal1/logo.png">
+    <title>LEUS</title>
+</head>
+<body>
+    <style>
+       #mensaje-flotante {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: none;
+            text-align: center;
+        }
+         .oculto {
+            display: none;
+        }    
+    </style>
+    <header class="header">
+        <div class="menu contanier">
+            <a href="#" class="logo"><img src="imgprincipal1/logo.png" width="100px"></a>
+            
+            <nav class="navbar">
+                <ul>
+                    
+                    <li><a href="cajas5.html">Productos</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="header-content ">
+            <h1><a href="pagina.html"> Aretes para damas</a></h1>
+          
+        </div>
+    </header>
+    <div class="contanier-2 pepe">
+    <div class="contanier-1 pepe">
+        <img src="imgprincipalcajas5/img5.jpg" alt="">
+    </div>
+      <div class="conte">
+        <h2>Aretes para mujer  de  fantasia y dijes de oro </h2>
+        <h4>Precio normal $200.98</h4>
+        <h3>Precio actual $99.99</h3>
+        <br>
+        <div class="compra">
+     <div class="botones">
+            <div class="boton1"><a href="#">Comprar $99.99</a></div>
+        </div>
+    </div>
+       </div>
+    </div>
+
+    <p class="parrafo">Para obtener más detalles sobre este producto o diferentes medidas comuníquese al +503 7060-6878 o +503 3368-3704 o haga click aquí para obtener asistencia en vivo</p>
+        
+        <div id="mensaje-flotante" class="oculto">
+            <h2>JOYERIA</h2>
+            <p id="mensaje-compra"></p>
+            <p><img style="width: 200px; height: auto; padding: 10px;" src="imgprincipalcajas5/img5.jpg" alt="feliz"></p>
+            <p id="mensaje-gracias"></p>
+            <p id="mensaje-box"></p>
+            <button id="explorar-btn">Salir</button>
+        </div>
+<footer class="footer">
+    <div class="pie"> 
+        <p class="resultado">
+            &copy; JOYERIA LEUS
+        </p>
+    <div class="redes">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const botones = document.querySelectorAll('.botones a, .botones1 a, .botones2 a, .botones3 a');
+    const mensajeFlotante = document.getElementById('mensaje-flotante');
+    const mensajeCompra = document.getElementById('mensaje-compra');
+    const mensajeGracias = document.getElementById('mensaje-gracias');
+    const mensajenelsongay=document.getElementById('mensaje-box');
+    const explorarBtn = document.getElementById('explorar-btn');
+
+    botones.forEach(boton => {
+        boton.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            const prenda = 'la prenda'; 
+            mensajeCompra.textContent = 'Haz comprado El producto';
+            mensajeGracias.textContent = 'Gracias por tu compra';
+            mensajenelsongay.textContent=''
+            mensajeFlotante.style.display = 'block';
+        });
+    });explorarBtn.addEventListener('click', function() {
+        mensajeFlotante.style.display = 'none';
+    });
+});
+</script>
+</body>
+</html>
